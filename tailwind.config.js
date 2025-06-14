@@ -1,0 +1,82 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    screens: {
+      sm: "350px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
+    colors:{
+      oliveGreen: "#708238",
+      paleOliveGreen: "#C5D5A4",
+      mutedOliveGreen: "#DDE5B6",
+      lightAvacadoGreen: "#AFC97E",
+      warmOliveTint: "#D4E09B",
+      sageTintedOlive: "#BFD8B3",
+      mutedGold: "#B5A261",
+      richMetallicGold: "#D4AF37",
+      warmBeige: "#E5D7B7",
+      offWhite: "#F8F8F2",
+      deepCharcoal: "#2F2F2F",
+      dustyRose: "#D4A5A5",
+      forestGreen: "#556B2F",
+      softSage: "#C4C4A6",
+      darkMocha: "#5D4037",
+      ivory: "#FFFFF0",
+      slateGray: "#708090",
+      accentBlue: "#4A90E2",
+      darkTealBlue: "#183D5E",
+      deepoceanBlue: "#003366",
+      royalBlue:"#0C1E3F",
+      warmTerracotta: "#D99058",
+      softBlush: "#F4D1C8",
+      coolGray: "#B0B7A8",
+      mutedPistachio: "#D8E2B3",
+      dustyMossGreen: "#C5C9A4",
+      warmEucalyptusGreen: "#BCC8A6",
+      darkMossGreen: "#2F4F2F",
+      everGreen: "#204E37",
+      darkSagegreen: "#3A4D39",
+      armyGreen: "#4B5320",
+      richBlackGreen: "#0F1A17",
+      deepForestGreen: "#122620",
+      darkEverGeen: "#0B3D2E",
+      mossyDeepgreen: "#1C352D",
+    },
+    extend: {
+      boxShadow: {
+        mutedGold: "0 0 10px 0 rgba(181, 162, 97, 0.5)",
+        mutedGoldMediumShadow: "10px 10px 200px 150px rgba(181, 162, 97, 0.5)",
+        deepForestGreenMediumShadow: "10px 10px 200px 150px rgba(112, 130, 56, 0.5)",
+      },
+      keyframes: {
+        wave: {
+          '0%': { transform: 'rotate(0.0deg)' },
+          '10%': { transform: 'rotate(14.0deg)' },
+          '20%': { transform: 'rotate(-8.0deg)' },
+          '30%': { transform: 'rotate(14.0deg)' },
+          '40%': { transform: 'rotate(-4.0deg)' },
+          '50%': { transform: 'rotate(10.0deg)' },
+          '60%': { transform: 'rotate(0.0deg)' },
+          '100%': { transform: 'rotate(0.0deg)' },
+        },
+      },
+       animation: {
+        wave: 'wave 2s infinite',
+      },
+    },
+    
+    fontFamily: {
+      body: ["Roboto"],
+      special:["Playfair Display"],
+    },
+  },
+  plugins: [],
+}
+
