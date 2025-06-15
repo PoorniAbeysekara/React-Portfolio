@@ -17,7 +17,7 @@ const AboutMeText = () => {
       {/* Responsive Columns */}
       <div className="flex flex-col md:flex-row gap-6 w-full">
         {/* About Me Section */}
-        <div className="bg-richBlackGreen p-4 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0">
+        <div className="bg-gradient-to-b from-darkPurple to-coldPurple p-4 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0">
           <p className="sm:text-base text-justify mb-2">
             Hi! I’m Poorni Abeysekara
             <br />
@@ -30,12 +30,12 @@ const AboutMeText = () => {
         </div>
 
         {/* Education Section */}
-        <div className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0">
+        <div className="bg-gradient-to-b from-darkPurple to-coldPurple p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3 mb-6 md:mb-0">
           <p className="text-xl md:text-2xl text-mutedGold text-center mb-2">
             Education
           </p>
           <div className="flex items-center justify-center md:justify-start">
-            <FaUniversity className="text-lightAvacadoGreen text-3xl md:text-4xl mr-4" />
+            <FaUniversity className="text-lavenderPurple text-3xl md:text-4xl mr-4" />
             <div>
               <p className="text-md ">
                 Institute of Technology, University of Moratuwa
@@ -49,7 +49,7 @@ const AboutMeText = () => {
         </div>
 
         {/* Certifications Section */}
-        <div className="bg-richBlackGreen p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3">
+        <div className="bg-gradient-to-b from-darkPurple to-coldPurple p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500 text-ivory w-full md:w-1/3">
           <p className="text-xl md:text-2xl text-mutedGold text-center mb-2">
             Certifications
           </p>
@@ -60,9 +60,9 @@ const AboutMeText = () => {
             </p>
           </div>
           <div className="flex items-center justify-center md:justify-start">
-            <BiSolidCertification className="text-lightAvacadoGreen text-3xl md:text-4xl mr-1" />
+            <BiSolidCertification className="text-lavenderPurple text-3xl md:text-4xl mr-1" />
             <Link to="/certifications">
-              <button className="mt-2 border border-richMetallicGold rounded-3xl py-1 px-4 text-sm hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold">
+              <button className="mt-2 border border-ghostWhite rounded-3xl py-1 px-4 text-sm hover:bg-lavenderPurple transition-all duration-500 cursor-pointer text-softSage hover:text-darkGrape hover:font-semibold">
                 View All Certificates
               </button>
             </Link>
@@ -73,7 +73,7 @@ const AboutMeText = () => {
       {/* Button */}
       <div className="w-full flex justify-center md:justify-start">
         <button
-          className="border border-richMetallicGold rounded-3xl py-2 px-6 text-base md:text-lg mt-6 hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold"
+          className="border border-ghostWhite rounded-3xl py-2 px-6 text-base md:text-lg mt-6 hover:bg-bg-raisingBlack transition-all duration-500 cursor-pointer text-lilacMist hover:text-ghostWhite hover:font-semibold"
           onClick={() => navigate("/projects")}
         >
           My Projects

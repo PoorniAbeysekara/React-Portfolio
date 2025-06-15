@@ -12,7 +12,7 @@ const ContactMeLeft = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0 }}
-          className="text-oliveGreen text-3xl mb-4"
+          className="text-purpleC text-3xl mb-4"
         >
           Get In Touch
         </motion.h2>

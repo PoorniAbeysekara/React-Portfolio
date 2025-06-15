@@ -20,7 +20,7 @@ const Heropic = () => {
     lg:max-h-[300px]  w-auto"
       />
       <div className="absolute -z-10 flex justify-center items-center animate-pulse">
-        <LiaCircleSolid className="md:h-[90%] sm:h-[50%] min-h-[420px] w-auto text-mutedGold blur-md animate-[spin_20s_linear_infinte]" />
+        <LiaCircleSolid className="md:h-[90%] sm:h-[50%] min-h-[420px] w-auto text-ghostWhite blur-md animate-[spin_20s_linear_infinte]" />
       </div>
     </motion.div>
   );

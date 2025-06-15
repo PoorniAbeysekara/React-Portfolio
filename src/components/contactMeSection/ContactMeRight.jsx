@@ -8,7 +8,7 @@ import { fadeIn } from "../../framerMotion/variants";
 const ContactMeRight = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-12">
-        <MdContactMail className="text-oliveGreen text-9xl max-w-[300px] animate-wave" />
+        <MdContactMail className="text-purpleC text-9xl max-w-[300px] animate-wave" />
         <ContactInfo />
         <ContactSocial />
     </div>

@@ -19,7 +19,7 @@ const ContactMeMain = () => {
       >
         Contact Me
       </motion.h2>
-      <div className="flex justify-between gap-24 p-8 bg-richBlackGreen rounded-xl lg:flex-row sm:flex-col ">
+      <div className="flex justify-between gap-24 p-8 bg-raisingBlack rounded-xl lg:flex-row sm:flex-col ">
         <ContactMeLeft />
         <ContactMeRight />
       </div>

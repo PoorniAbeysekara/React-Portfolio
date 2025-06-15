@@ -27,7 +27,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-4xl font-special font-light text-warmOliveTint"
+        className="text-4xl font-special font-light text-ghostWhite"
       >
         Hi There,
       </motion.h3>
@@ -36,7 +36,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold font-special text-warmOliveTint"
+        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold font-special text-ghostWhite"
       >
         I'm Poorni Abeysekara
       </motion.h1>
@@ -64,7 +64,7 @@ const HeroText = () => {
         <a
           href="/images/files/Poorni Abeysekara.pdf"
           download
-          className="border border-richMetallicGold rounded-3xl py-2 px-6 text-lg mt-6 hover:bg-warmOliveTint transition-all duration-500 cursor-pointer text-softSage hover:text-deepForestGreen hover:font-semibold hidden md:inline-block"
+          className="border border-ghostWhite rounded-3xl py-2 px-6 text-lg mt-6 hover:bg-raisingBlack transition-all duration-500 cursor-pointer text-lilacMist hover:text-ghostWhite hover:font-semibold hidden md:inline-block"
         >
           Download CV
         </a>

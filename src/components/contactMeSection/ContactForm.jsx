@@ -53,7 +53,7 @@ const ContactForm = () => {
           id="user_name"
           placeholder="Harry"
           autoComplete="name"
-          className="h-12 rounded-lg p-2 bg-oliveGreen text-sageTintedOlive"
+          className="h-12 rounded-lg p-2 bg-purpleC text-darkGrape placeholder:text-lilacMist" 
           value={name}
           onChange={handleName}
           required
@@ -64,7 +64,7 @@ const ContactForm = () => {
           id="user_email"
           placeholder="Harry@gmail.com"
           autoComplete="email"
-          className="h-12 rounded-lg p-2 bg-oliveGreen text-sageTintedOlive"
+          className="h-12 rounded-lg p-2 bg-purpleC text-darkGrape placeholder:text-lilacMist"
           value={email}
           onChange={handleEmail}
           required
@@ -77,14 +77,14 @@ const ContactForm = () => {
           autoComplete="off"
           rows="7"
           cols="50"
-          className="rounded-lg p-2 bg-oliveGreen text-sageTintedOlive"
+          className="rounded-lg p-2 bg-purpleC text-darkGrape placeholder:text-lilacMist"
           value={message}
           onChange={handleMessage}
           required
         />
         <button
           type="submit"
-          className="w-full border border-richMetallicGold rounded-lg text-softSage font-semibold text-xl p-2 hover:bg-warmOliveTint transition-all duration-500 cursor-pointer  hover:text-deepForestGreen hover:font-semibold"
+          className="w-full border border-ghostWhite rounded-lg text-coldPurple font-semibold text-xl p-2 hover:bg-purpleLight transition-all duration-500 cursor-pointer  hover:text-eggPlantTint hover:font-semibold"
         >
           Send
         </button>

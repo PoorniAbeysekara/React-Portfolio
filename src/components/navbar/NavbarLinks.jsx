@@ -11,7 +11,7 @@ const links = [
 
 const NavbarLinks = ({ onLinkClick }) => {
   return (
-    <ul className="flex gap-6 text-ivory font-semibold text-center lg:flex-row sm:flex-col lg:relative sm:absolute sm:top-[120%] left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-darkTealBlue/30 backdrop-blur-3xl lg:bg-deepForestGreen sm:w-full py-4">
+    <ul className="flex gap-6 text-ivory font-semibold text-center lg:flex-row sm:flex-col lg:relative sm:absolute sm:top-[120%] left-[50%] -translate-x-[50%] lg:text-md sm:text-xl sm:bg-darkGrape/30 backdrop-blur-3xl lg:bg-darkGrape sm:w-full py-4">
       {links.map((link, index) => (
         <li key={index} className="group">
           <RouterLink
@@ -21,7 +21,7 @@ const NavbarLinks = ({ onLinkClick }) => {
           >
             {link.label}
           </RouterLink>
-          <div className="mx-auto bg-mutedGold w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
+          <div className="mx-auto bg-ghostWhite w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
         </li>
       ))}
     </ul>
